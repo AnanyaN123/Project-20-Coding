@@ -4,15 +4,15 @@ var tomGroup, tomOne, tomFour, tomThree, tomTwo, tom;
 
 function preload() {
     //load the images here
-    gardenImg = loadImage("images/garden.png");
+    gardenImg = loadImage("garden.png");
 
-    jerryOne = loadAnimation("images/jerryOne.png");
-    jerryTwo = loadAnimation("images/jerryTwo.png","images/jerryThree.png");
-    jerryThree = loadAnimation("images/jerryFour.png");
+    jerryOne = loadAnimation("jerryOne.png");
+    jerryTwo = loadAnimation("jerryTwo.png","jerryThree.png");
+    jerryThree = loadAnimation("jerryFour.png");
 
-    tomOne = loadAnimation("images/tomOne.png");
-    tomTwo = loadAnimation("images/tomTwo.png","images/tomThree.png");
-    tomThree = loadAnimation("images/tomFour.png");
+    tomOne = loadAnimation("tomOne.png");
+    tomTwo = loadAnimation("tomTwo.png","tomThree.png");
+    tomThree = loadAnimation("tomFour.png");
 }
 
 function setup(){
